@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TacoExpress - Menú</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <h1>🌮 TacoExpress</h1>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="menu.html" class="active">Menú</a>
+    <a href="cart.html">Carrito (<span id="cart-count">0</span>)</a>
+    <a href="login.html">Ingresar</a>
+  </nav>
+</header>
+<main class="container">
+  <h2>Menú</h2>
+  <div id="menu-list" class="grid"></div>
+</main>
+<footer class="footer">© 2025 TacoExpress</footer>
+<script src="site.js"></script>
+<script>
+  renderMenu();
+  updateCartCount();
+</script>
+</body>
+</html>

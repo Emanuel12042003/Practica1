@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TacoExpress - Ingresar</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <h1>🌮 TacoExpress</h1>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="menu.html">Menú</a>
+    <a href="cart.html">Carrito</a>
+    <a href="login.html" class="active">Ingresar</a>
+  </nav>
+</header>
+<main class="container">
+  <h2>Iniciar sesión</h2>
+  <form class="card" onsubmit="fakeLogin(event)">
+    <label>Correo electrónico<input type="email" required id="email"/></label>
+    <label>Contraseña<input type="password" required id="password"/></label>
+    <button class="btn" type="submit">Entrar</button>
+    <p class="muted">* Prototipo educativo: no guarda datos reales.</p>
+  </form>
+</main>
+<footer class="footer">© 2025 TacoExpress</footer>
+<script src="site.js"></script>
+</body>
+</html>
